@@ -1,0 +1,88 @@
+{
+  "accommodation": [
+    {
+      "name": "Luxury Hotel",
+      "type": "Hotel",
+      "price_per_night": "$200",
+      "amenities": ["Free WiFi", "Swimming Pool", "Gym"],
+      "rating": 4.5
+    },
+    {
+      "name": "Cozy Bed and Breakfast",
+      "type": "Bed & Breakfast",
+      "price_per_night": "$100",
+      "amenities": ["Breakfast included", "Private Bathroom"],
+      "rating": 4.0
+    }
+  ],
+  "food": [
+    {
+      "name": "Fine Dining Restaurant",
+      "type": "Restaurant",
+      "price_range": "$$$",
+      "cuisine": ["French", "Italian"],
+      "rating": 5.0
+    },
+    {
+      "name": "Local Cafe",
+      "type": "Cafe",
+      "price_range": "$$",
+      "cuisine": ["Coffee", "Pastries"],
+      "rating": 4.5
+    }
+  ],
+  "transportation": {
+    "flights": [
+      {
+        "airline": "XYZ Airlines",
+        "departure_time": "09:00 AM",
+        "arrival_time": "11:30 AM",
+        "price": "$300"
+      },
+      {
+        "airline": "ABC Airways",
+        "departure_time": "02:00 PM",
+        "arrival_time": "04:30 PM",
+        "price": "$350"
+      }
+    ],
+    "trains": [
+      {
+        "train_company": "XYZ Railways",
+        "departure_time": "08:00 AM",
+        "arrival_time": "10:30 AM",
+        "price": "$150"
+      },
+      {
+        "train_company": "ABC Trains",
+        "departure_time": "01:00 PM",
+        "arrival_time": "03:30 PM",
+        "price": "$200"
+      }
+    ],
+    "buses": [
+      {
+        "bus_company": "XYZ Bus Services",
+        "departure_time": "07:00 AM",
+        "arrival_time": "11:00 AM",
+        "price": "$100"
+      },
+      {
+        "bus_company": "ABC Coaches",
+        "departure_time": "12:00 PM",
+        "arrival_time": "04:00 PM",
+        "price": "$120"
+      }
+    ]
+  },
+  "budget": {
+    "accommodation": "$400",
+    "food": "$200",
+    "transportation": "$300",
+    "total": "$900"
+  },
+  "warnings": [
+    "Beware of local scams and pickpockets.",
+    "Carry necessary documents while traveling."
+  ]
+}
